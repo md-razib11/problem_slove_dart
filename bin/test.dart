@@ -1,7 +1,9 @@
-import 'dart:io';
-
-main() {
-  var fileName = stdin.readLineSync();
-  var fileSplit = fileName?.split('.');
-  print(fileSplit?[1]);
+void main() {
+  var output = '''
+  a string that you \"don\'t\" have to escape
+  this
+  is a ....... multi-line
+  heredoc string --------> example
+  ''';
+  print(output);
 }

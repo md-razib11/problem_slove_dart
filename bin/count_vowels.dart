@@ -2,7 +2,7 @@ void main() {
   String text = 'Hi my name is Mahamudullah';
 
   int count = 0;
- String textNew=text.toLowerCase();
+ //String textNew=text.toLowerCase();
 
  Set<String> vowels={'a','e','i','o','u','A','E','I','O','U'};
   for (int i = 0; i < text.length; i++){
